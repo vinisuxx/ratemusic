@@ -10,8 +10,8 @@ export const Content = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
-
-    & > * {
-        padding: 1.5rem;
-    }
 `;
+
+export const OutletContainer = styled.div`
+    padding: 1.5rem;
+`

@@ -4,6 +4,7 @@ import { Sidebar } from "../../components/Sidebar";
 import {
   Content,
   LayoutContainer,
+  OutletContainer,
 } from "./styles";
 
 export const DefaultLayout = () => {
@@ -12,7 +13,9 @@ export const DefaultLayout = () => {
       <Sidebar />
       <Content>
         <Header />
-        <Outlet />
+        <OutletContainer>
+          <Outlet />
+        </OutletContainer>
       </Content>
     </LayoutContainer>
   );
